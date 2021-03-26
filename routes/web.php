@@ -13,7 +13,8 @@
 if(SITE_MAINTENANCE=='NO')
 {
 	Route::get('/','HomeController@home_page');
-	Route::get('/home1','HomeController@another_home_page');
+	Route::get('/home1','HomeController@home_page');
+	Route::get('/home2','HomeController@another_home_page');
 }
 else
 {

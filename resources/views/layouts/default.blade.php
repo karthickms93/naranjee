@@ -22,6 +22,8 @@
         <video id="bg_video" muted loop autoplay>
             <source src="assets/cloud_1.mp4" type="video/mp4">      
         </video>
+        @elseif(Request::segment(1)=='home2')
+        <img id="bg_video" src="assets/images/banner.png" class="w-100"/>
         @else
         <video id="bg_video" muted loop autoplay>
             <source src="assets/cloud.webm" type="video/webm">      

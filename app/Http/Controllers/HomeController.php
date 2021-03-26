@@ -20,7 +20,7 @@ class HomeController extends Controller
 	}
 	public function another_home_page()
 	{
-		return View::make('pages/home');
+		return View::make('pages/home2');
 	}
 
 	public function under_construction()
